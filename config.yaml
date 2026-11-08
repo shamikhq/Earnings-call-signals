@@ -1,0 +1,17 @@
+project: earnings-call-signals
+random_seed: 42
+
+universe:
+  description: "Pilot universe, to be defined"
+  start_date: "2015-01-01"
+  end_date: "2025-12-31"
+
+windows:
+  reaction_days: [0, 1]
+  drift_days: [2, 60]
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  
